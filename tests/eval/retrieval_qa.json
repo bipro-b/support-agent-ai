@@ -1,0 +1,66 @@
+[
+  {
+    "question": "How long until my package shows up?",
+    "relevant_sources": ["shipping.md"]
+  },
+  {
+    "question": "Do I have to pay for delivery on a small order?",
+    "relevant_sources": ["shipping.md"]
+  },
+  {
+    "question": "My parcel says delivered but I never got it. What now?",
+    "relevant_sources": ["shipping.md"]
+  },
+  {
+    "question": "Can I send something back if I changed my mind?",
+    "relevant_sources": ["returns.md"]
+  },
+  {
+    "question": "When will the money hit my account after a return?",
+    "relevant_sources": ["returns.md"]
+  },
+  {
+    "question": "The thing I ordered arrived broken.",
+    "relevant_sources": ["returns.md"]
+  },
+  {
+    "question": "Which cards can I use to pay?",
+    "relevant_sources": ["payments.md"]
+  },
+  {
+    "question": "Why was my card declined at checkout?",
+    "relevant_sources": ["payments.md"]
+  },
+  {
+    "question": "It looks like I got billed twice.",
+    "relevant_sources": ["payments.md"]
+  },
+  {
+    "question": "I forgot my login and can't get in.",
+    "relevant_sources": ["account.md"]
+  },
+  {
+    "question": "How do I turn on extra login security?",
+    "relevant_sources": ["account.md"]
+  },
+  {
+    "question": "I want to permanently close my account.",
+    "relevant_sources": ["account.md"]
+  },
+  {
+    "question": "When is an item actually reserved for me?",
+    "relevant_sources": ["products.md"]
+  },
+  {
+    "question": "Is my laptop covered if it stops working?",
+    "relevant_sources": ["products.md"]
+  },
+  {
+    "question": "Can I use a coupon together with a gift card?",
+    "relevant_sources": ["payments.md", "products.md"]
+  },
+  {
+    "question": "I changed my mind and want a refund, but how much shipping will I lose and how long does it take?",
+    "relevant_sources": ["returns.md"]
+  }
+]

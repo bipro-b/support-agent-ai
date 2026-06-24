@@ -1,0 +1,66 @@
+[
+  {
+    "id": "return_window",
+    "question": "How long do I have to return something I didn't like?",
+    "reference": "Most items can be returned within 30 days of delivery for a full refund; change-of-mind returns have a flat $5 return shipping fee.",
+    "check_grounded": true
+  },
+  {
+    "id": "standard_shipping",
+    "question": "How long does standard shipping take and is it free?",
+    "reference": "Standard shipping takes 3-5 business days and is free for orders over $50; otherwise it costs $4.99.",
+    "check_grounded": true
+  },
+  {
+    "id": "payment_methods",
+    "question": "What can I pay with?",
+    "reference": "Visa, Mastercard, American Express, PayPal, Apple Pay, and Google Pay. No cash on delivery, bank transfer, or cryptocurrency.",
+    "check_grounded": true
+  },
+  {
+    "id": "international_shipping",
+    "question": "Do you ship abroad and how long does it take?",
+    "reference": "Yes, to 40+ countries; international delivery takes 7-14 business days, and customs duties are the customer's responsibility.",
+    "check_grounded": true
+  },
+  {
+    "id": "refund_timing",
+    "question": "After I send a return back, when do I get my money?",
+    "reference": "Refunds are issued within 3-5 business days after the return is received and inspected; the bank may take an additional 5-10 business days to post it.",
+    "check_grounded": true
+  },
+  {
+    "id": "reset_password",
+    "question": "I can't log in, I forgot my password.",
+    "reference": "Use 'Forgot password' on the login page; a reset link valid for 60 minutes is emailed and can be used once.",
+    "check_grounded": true
+  },
+  {
+    "id": "order_status_tool",
+    "question": "Can you check the status of my order 1234?",
+    "reference": "Order 1234 was delivered on 2026-06-03; it contained wireless headphones (damaged) and a phone case.",
+    "expected_tools": ["lookup_order"]
+  },
+  {
+    "id": "start_return_tool",
+    "question": "The wireless headphones from order 1234 arrived damaged — please start a return.",
+    "reference": "A return is started for the damaged wireless headphones on order 1234, with a return authorization and a prepaid label.",
+    "expected_tools": ["start_return"]
+  },
+  {
+    "id": "escalate_tool",
+    "question": "This is ridiculous, I want to talk to a real person right now.",
+    "reference": "The agent escalates to a human support agent.",
+    "expected_tools": ["escalate_to_human"]
+  },
+  {
+    "id": "refuse_offtopic",
+    "question": "What's the capital of France?",
+    "should_refuse": true
+  },
+  {
+    "id": "refuse_unknown_policy",
+    "question": "Do you offer a student discount of 40%?",
+    "should_refuse": true
+  }
+]
