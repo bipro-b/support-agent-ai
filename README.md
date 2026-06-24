@@ -6,7 +6,7 @@
 
 ## What we're building
 
-A customer-support agent for a fictional e-commerce company (**"Brecx Store"**). It:
+A customer-support agent for a fictional e-commerce company (**"BIP Store"**). It:
 
 - Answers customer questions from a knowledge base (**RAG**)
 - Remembers the conversation and the customer's history (**context & memory**)

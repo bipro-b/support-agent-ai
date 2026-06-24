@@ -23,7 +23,7 @@ from ..security.rate_limit import RateLimiter
 from .engine import SupportEngine
 from .schemas import ChatRequest, ChatResponse
 
-app = FastAPI(title="Brecx Store Support Agent", version="0.9.0")
+app = FastAPI(title="BIP Store Support Agent", version="0.9.0")
 
 # The engine is a singleton built lazily on first use. We expose it through a dependency
 # so tests can override it (app.dependency_overrides[get_engine] = ...) without a real

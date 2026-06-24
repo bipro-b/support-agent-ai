@@ -20,7 +20,7 @@ from support_agent.llm import LLMClient, assistant, user
 
 # A first taste of the support domain: this persona is the seed of our whole agent.
 SUPPORT_SYSTEM = (
-    "You are a concise, friendly customer-support agent for Brecx Store, an online shop. "
+    "You are a concise, friendly customer-support agent for BIP Store, an online shop. "
     "Answer in 1-2 sentences. If you don't know something, say so plainly."
 )
 

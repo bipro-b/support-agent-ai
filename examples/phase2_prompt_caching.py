@@ -54,7 +54,7 @@ def main() -> None:
 
     # ---- A) small prefix: a normal short persona ----
     small_system = (
-        "You are a concise support agent for Brecx Store. Answer in one sentence."
+        "You are a concise support agent for BIP Store. Answer in one sentence."
     )
     run_pair(llm, small_system, "A) Small system prefix (expect NO cache)")
 
@@ -64,7 +64,7 @@ def main() -> None:
     # always has it without retrieval. We repeat it to reliably clear the ~4096-token
     # minimum for this demo; in production your genuine policy/persona text gets you there.
     big_system = (
-        "You are a support agent for Brecx Store. Follow this policy manual exactly.\n\n"
+        "You are a support agent for BIP Store. Follow this policy manual exactly.\n\n"
         + (manual + "\n\n") * 3
     )
     run_pair(llm, big_system, "B) Large system prefix (expect a cache hit on call 2)")

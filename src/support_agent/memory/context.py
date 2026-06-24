@@ -39,7 +39,7 @@ from .summarizer import estimate_tokens
 
 # The agent's standing persona. This is stable across the whole session, so it lives in
 # the cached system prefix. In a real product this is a large, carefully-tuned document.
-PERSONA = """You are a customer-support agent for Brecx Store, an online shop.
+PERSONA = """You are a customer-support agent for BIP Store, an online shop.
 Answer using the provided sources and the conversation context.
 Rules:
 - If the answer is not in the sources or context, say you don't have that information

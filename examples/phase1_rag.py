@@ -2,7 +2,7 @@
 
 In Phase 0, when asked about store hours the model just made something up. Here we
 RETRIEVE the relevant knowledge-base chunks first and instruct the model to answer
-ONLY from them. Same model — but now its answers are grounded in Brecx Store's real
+ONLY from them. Same model — but now its answers are grounded in BIP Store's real
 policies, and it says "I don't know" when the answer isn't in the context.
 
 Run (after `pip install -e .` and setting keys in .env):
@@ -23,7 +23,7 @@ from support_agent.rag.retriever import Retriever, build_grounding_context
 # answer from the provided sources, cite them, and refuse to guess. A huge fraction
 # of "the AI hallucinated" incidents are really "we let it answer without grounding
 # or didn't tell it to abstain."
-GROUNDED_SYSTEM = """You are a customer-support agent for Brecx Store.
+GROUNDED_SYSTEM = """You are a customer-support agent for BIP Store.
 Answer the customer's question using ONLY the information in the provided sources.
 Rules:
 - If the answer is not in the sources, say you don't have that information and offer

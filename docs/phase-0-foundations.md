@@ -83,7 +83,7 @@ You talk to Claude through one endpoint: `POST /v1/messages`. A request is built
 ```python
 client.messages.create(
     model="claude-opus-4-8",
-    system="You are a support agent for Brecx Store.",   # the standing instructions
+    system="You are a support agent for BIP Store.",   # the standing instructions
     messages=[                                            # the conversation so far
         {"role": "user", "content": "What are your hours?"},
     ],
